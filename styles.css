@@ -1,0 +1,29 @@
+/* UNIVERSAL STYLES */
+html {
+  background: url("img/background-tile.jpg") repeat;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-header {
+  background-color: burlywood;
+  width: 75vw;
+  border: 5px double maroon;
+  padding: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+}

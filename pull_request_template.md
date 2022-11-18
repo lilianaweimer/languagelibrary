@@ -4,7 +4,7 @@ Please check if your PR fulfills the following requirements:
 
 - [ ] Visual check
 
-## Issues links
+## Issue links
 
 This PR closes the following ticket(s):
 
