@@ -16,7 +16,7 @@ body {
 .main-header {
   background-color: burlywood;
   width: 75vw;
-  border: 5px double maroon;
+  border: 10px ridge maroon;
   padding: 5px;
   margin-bottom: 10px;
   display: flex;
@@ -29,6 +29,7 @@ h1 {
   color: #660000;
   letter-spacing: 0.125em;
   margin: 0;
+  text-shadow: 0 0 3px goldenrod, 0 0 5px maroon;
 }
 
 nav {
@@ -44,9 +45,44 @@ nav {
   padding: 5px 10px;
   background-color: #660000;
   margin: 5px;
-  border: 2px solid goldenrod;
+  border: 2px outset goldenrod;
 }
 
 .nav-link:hover {
-  border: 2px dashed goldenrod;
+  border: 2px solid goldenrod;
+  font-weight: bold;
+}
+
+.nav-link:active {
+  border: 2px inset goldenrod;
+}
+
+.main-body {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  width: 100%;
+  justify-items: center;
+  grid-gap: 20px;
+  padding-top: 10px;
+}
+
+/* HOMEPAGE STYLES */
+.language-family {
+  background-color: burlywood;
+  border: 5px ridge maroon;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.language-family:hover {
+  border: 5px groove maroon;
+  background-color: #d9ad73;
+}
+
+.language-family > h2 {
+  color: #660000;
+  text-decoration: underline;
 }
