@@ -57,18 +57,26 @@ nav {
   border: 2px inset goldenrod;
 }
 
-.main-body {
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 10px;
+}
+
+/* HOMEPAGE STYLES */
+.home-body {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
   width: 100%;
   justify-items: center;
   grid-gap: 20px;
   padding-top: 10px;
+  height: max-content;
 }
 
-/* HOMEPAGE STYLES */
 .language-family {
   background-color: burlywood;
   border: 5px ridge maroon;
