@@ -94,3 +94,7 @@ footer {
   color: #660000;
   text-decoration: underline;
 }
+
+.language-family-image {
+  border: 3px double maroon;
+}
