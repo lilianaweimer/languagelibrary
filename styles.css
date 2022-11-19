@@ -58,10 +58,11 @@ nav {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   width: 100%;
   bottom: 0px;
-  left: 10px;
+  left: 0;
+  margin-top: 20px;
 }
 
 /* HOMEPAGE STYLES */
@@ -110,4 +111,27 @@ footer {
 
 .subheader {
   color: maroon;
+}
+
+/* LANGUAGE HUB STYLES */
+
+.lang-nav {
+  width: 75%;
+  font-size: 18px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.lang-letter-article {
+  width: 70vw;
+  border-top: 2px dotted maroon;
+  text-align: left;
+}
+
+.lang-letter-article > h3 {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.lang-letter-list {
 }
