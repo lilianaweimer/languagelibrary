@@ -98,3 +98,12 @@ footer {
 .language-family-image {
   border: 3px double maroon;
 }
+
+.body {
+  width: 70vw;
+  background-color: burlywood;
+  border: 5px ridge maroon;
+  padding: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
