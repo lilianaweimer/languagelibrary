@@ -1,0 +1,137 @@
+/* UNIVERSAL STYLES */
+html {
+  background: url("img/background-tile.jpg") repeat;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-header {
+  background-color: burlywood;
+  width: 75vw;
+  border: 10px ridge maroon;
+  padding: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+h1 {
+  font-size: 70px;
+  color: #660000;
+  letter-spacing: 0.125em;
+  margin: 0;
+  text-shadow: 0 0 3px goldenrod, 0 0 5px maroon;
+}
+
+nav {
+  width: max-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: goldenrod;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px 10px;
+  background-color: #660000;
+  margin: 5px;
+  border: 2px outset goldenrod;
+}
+
+.nav-link:hover {
+  border: 2px solid goldenrod;
+  font-weight: bold;
+}
+
+.nav-link:active {
+  border: 2px inset goldenrod;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+  left: 0;
+  margin-top: 20px;
+}
+
+/* HOMEPAGE STYLES */
+.home-body {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  width: 100%;
+  justify-items: center;
+  grid-gap: 20px;
+  padding-top: 10px;
+  height: max-content;
+}
+
+.language-family {
+  background-color: burlywood;
+  border: 5px ridge maroon;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.language-family:hover {
+  border: 5px groove maroon;
+  background-color: #d9ad73;
+}
+
+.language-family > h2 {
+  color: #660000;
+  text-decoration: underline;
+}
+
+.language-family-image {
+  border: 3px double maroon;
+}
+
+.body {
+  width: 70vw;
+  background-color: burlywood;
+  border: 5px ridge maroon;
+  padding: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.subheader {
+  color: maroon;
+}
+
+/* LANGUAGE HUB STYLES */
+
+.lang-nav {
+  width: 75%;
+  font-size: 18px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.lang-letter-article {
+  width: 70vw;
+  border-top: 2px dotted maroon;
+  text-align: left;
+}
+
+.lang-letter-article > h3 {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.lang-letter-list {
+}
