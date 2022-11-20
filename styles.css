@@ -107,6 +107,12 @@ footer {
   padding: 5px;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.body > p {
+  width: 55vw;
+  margin: 0 auto;
 }
 
 .subheader {
@@ -133,36 +139,23 @@ footer {
   font-size: 20px;
 }
 
-.lang-letter-list {
+/* LANGUAGE PAGE STYLES */
+.resource-table {
+  width: 85%;
+  margin: 0 auto;
+  text-align: left;
+  border: 2px inset maroon;
 }
 
-/* BREADCRUMBS */
-/* Style the list */
-ul.breadcrumb {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
+.resource-table-row {
 }
 
-/* Display list items side by side */
-ul.breadcrumb li {
-  font-size: 18px;
+.resource-table-header {
+  background-color: maroon;
+  color: goldenrod;
+  padding-left: 2px;
 }
 
-/* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li + li:before {
-  color: black;
-  content: "/\00a0";
-  padding-left: 10px;
-  padding-right: 7px;
-}
-
-/* Add a color to all links inside the list */
-ul.breadcrumb li a {
-  text-decoration: none;
-}
-
-/* Add a color on mouse-over */
-ul.breadcrumb li a:hover {
-  text-decoration: underline;
+.resource-table-cell {
+  border-bottom: 1px dotted maroon;
 }
