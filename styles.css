@@ -145,6 +145,7 @@ footer {
   margin: 0 auto;
   text-align: left;
   border: 2px inset maroon;
+  margin-bottom: 5px;
 }
 
 .resource-table-row {
