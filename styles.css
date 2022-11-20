@@ -135,3 +135,34 @@ footer {
 
 .lang-letter-list {
 }
+
+/* BREADCRUMBS */
+/* Style the list */
+ul.breadcrumb {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
+  color: black;
+  content: "/\00a0";
+  padding-left: 10px;
+  padding-right: 7px;
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  text-decoration: underline;
+}
