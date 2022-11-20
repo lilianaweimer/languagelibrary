@@ -107,6 +107,12 @@ footer {
   padding: 5px;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.body > p {
+  width: 55vw;
+  margin: 0 auto;
 }
 
 .subheader {
@@ -133,5 +139,24 @@ footer {
   font-size: 20px;
 }
 
-.lang-letter-list {
+/* LANGUAGE PAGE STYLES */
+.resource-table {
+  width: 85%;
+  margin: 0 auto;
+  text-align: left;
+  border: 2px inset maroon;
+  margin-bottom: 5px;
+}
+
+.resource-table-row {
+}
+
+.resource-table-header {
+  background-color: maroon;
+  color: goldenrod;
+  padding-left: 2px;
+}
+
+.resource-table-cell {
+  border-bottom: 1px dotted maroon;
 }
